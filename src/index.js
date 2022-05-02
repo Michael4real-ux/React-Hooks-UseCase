@@ -5,14 +5,16 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import StateTutorial from '../src/UseState/StateTutorial'
 //import ReducerTutorial from './UseReducer/ReducerTutorial';
-import EffectTutorial from './useEffect/EffectTutorial';
+//import EffectTutorial from './useEffect/EffectTutorial';
+import RefTutorial from './useRef/RefTutorial';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <StateTutorial/> */}
     {/* <ReducerTutorial/> */}
-    <EffectTutorial/>
+    {/* <EffectTutorial/> */}
+    <RefTutorial/>
   </React.StrictMode>
 );
 
