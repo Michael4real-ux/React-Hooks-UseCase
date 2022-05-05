@@ -8,3 +8,4 @@
  - useReducer
  - useEffect
  - useRef
+ - useLayoutEffect

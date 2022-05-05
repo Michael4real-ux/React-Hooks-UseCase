@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 //import StateTutorial from '../src/UseState/StateTutorial'
 //import ReducerTutorial from './UseReducer/ReducerTutorial';
 //import EffectTutorial from './useEffect/EffectTutorial';
-import RefTutorial from './useRef/RefTutorial';
+//import RefTutorial from './useRef/RefTutorial';
+import LayoutEffectTutorial from './useLayoutEffect/LayoutEffectTutorial';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,8 @@ root.render(
     {/* <StateTutorial/> */}
     {/* <ReducerTutorial/> */}
     {/* <EffectTutorial/> */}
-    <RefTutorial/>
+    {/* <RefTutorial/> */}
+    <LayoutEffectTutorial />
   </React.StrictMode>
 );
 
