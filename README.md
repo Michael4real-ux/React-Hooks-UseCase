@@ -11,3 +11,4 @@
  - useLayoutEffect
  - useImperativeHandle
  - useContext
+ - useMemo
