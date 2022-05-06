@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 //import ReducerTutorial from './UseReducer/ReducerTutorial';
 //import EffectTutorial from './useEffect/EffectTutorial';
 //import RefTutorial from './useRef/RefTutorial';
-import LayoutEffectTutorial from './useLayoutEffect/LayoutEffectTutorial';
+//import LayoutEffectTutorial from './useLayoutEffect/LayoutEffectTutorial';
+import ImperativeaHandle from './useImperativeHandle/ImperativeaHandle';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
     {/* <ReducerTutorial/> */}
     {/* <EffectTutorial/> */}
     {/* <RefTutorial/> */}
-    <LayoutEffectTutorial />
+    {/* <LayoutEffectTutorial /> */}
+    <ImperativeaHandle/>
   </React.StrictMode>
 );
 

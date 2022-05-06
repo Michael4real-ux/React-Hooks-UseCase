@@ -9,3 +9,4 @@
  - useEffect
  - useRef
  - useLayoutEffect
+ - useImperativeHandle
