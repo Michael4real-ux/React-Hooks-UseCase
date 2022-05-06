@@ -9,7 +9,9 @@ import './index.css';
 //import RefTutorial from './useRef/RefTutorial';
 //import LayoutEffectTutorial from './useLayoutEffect/LayoutEffectTutorial';
 //import ImperativeaHandle from './useImperativeHandle/ImperativeaHandle';
-import ContextTutorial from './useContext/ContextTutorial';
+//import ContextTutorial from './useContext/ContextTutorial';
+//import MemoTutorial from './useMemo/MemoTutorial';
+import CallBackTutorial from './useCallback/CallbackTutorial';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,7 +22,9 @@ root.render(
     {/* <RefTutorial/> */}
     {/* <LayoutEffectTutorial /> */}
     {/* <ImperativeaHandle/> */}
-    <ContextTutorial/>
+    {/* <ContextTutorial/> */}
+    {/* <MemoTutorial/> */}
+    <CallBackTutorial />
   </React.StrictMode>
 );
 
